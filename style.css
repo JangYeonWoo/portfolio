@@ -1,0 +1,23 @@
+/* Global */
+:root {
+  /* Color */
+  --color-white:
+  --color-ligth-white:
+  --color-dark-white:
+  --color-skyblue:
+
+  /* Font Size */
+
+
+  /* Font Weight */
+
+
+  /* Size */
+
+}
+
+/* Univeral tags */
+* {
+  box-sizing: border-box;
+}
+
