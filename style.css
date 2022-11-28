@@ -5,12 +5,26 @@
   --color-ligth-white:
   --color-dark-white:
   --color-skyblue:
+  --color-dark-blue:
+  --color-blak:
+  --color-dark-grey:
+  --color-grey:
+  --color-light-grey:
+  --color-blue:
+  --color-yellow:
+  --color-orange:
 
   /* Font Size */
-
+  --font-large: 48px;
+  --font-medium: 28px;
+  --font-regular: 18px;
+  --font-small: 16px;
+  --font-micro: 14px;
 
   /* Font Weight */
-
+  --weight-bold: 700;
+  --weight-semi-bold: 600;
+  --weight-regular:400;
 
   /* Size */
 
@@ -20,4 +34,6 @@
 * {
   box-sizing: border-box;
 }
+
+
 
