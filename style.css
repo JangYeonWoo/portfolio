@@ -1,16 +1,16 @@
 /* Global */
 :root {
   /* Color */
-  --color-white: ;
+  --color-white: #ffffff;
   --color-ligth-white: ;
   --color-dark-white: ;
-  --color-skyblue: ;
+  --color-skyblue: #83d0f7;
   --color-dark-blue: ;
-  --color-blak: ;
+  --color-blak: #000000;
   --color-dark-grey: ;
   --color-grey: ;
   --color-light-grey: ;
-  --color-blue: ;
+  --color-blue: #0d94db;
   --color-yellow: ;
   --color-orange: ;
 
@@ -33,6 +33,29 @@
 /* Univeral tags */
 * {
   box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: ;
+  cursor: default;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-white);
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
 }
 
 /* Typography */
@@ -96,4 +119,33 @@ p{
 
 .navbar__menu__item:hover {
   background-color: var(--color-blue);
+}
+
+/* Home */
+#home {
+  background: url('image/background.png') center/cover no-repeat;
+  padding: 40px;
+  text-align: center;
+}
+
+.home__avatar {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 2px solid var(--color-white);
+}
+
+.home__title,
+.home__description {
+  color: white;
+}
+
+.home__contact {
+  font-size: var(--font-regular);
+  font-weight: var(--weight-bold);
+  margin: 24px;
+  padding: 8px 12px;
+  border: 2px solid var(--color-white);
+  border-radius: var(--size-border-radius);
+  color: var(--color-white);
 }
